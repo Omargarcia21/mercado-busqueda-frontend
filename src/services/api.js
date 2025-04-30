@@ -3,7 +3,7 @@ import axios from "axios";
 // Función para buscar productos usando el proxy backend
 export const searchProducts = async (query) => {
   try {
-    const proxyUrl =  `https://mercado-busqueda-backend.onrender.com/api/search?q=${encodeURIComponent(query)}&limit=3`;
+    const proxyUrl = `https://cors-proxy-mercado.onrender.com/api/search?q=${encodeURIComponent(query)}&limit=3`;
     const response = await axios.get(proxyUrl);
 
     return response.data.map(item => ({
