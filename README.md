@@ -15,7 +15,7 @@ Este proyecto es una aplicación funcional que permite buscar productos utilizan
 
 ## 1. Clonar el repositorio
 
-git clone https://github.com/omargarcia21/mercado-busqueda.git
+git clone https://github.com/Omargarcia21/mercado-busqueda-frontend.git
 cd mercado-busqueda
 
 ## Frontend
